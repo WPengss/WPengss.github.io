@@ -1,0 +1,261 @@
+*{
+	margin: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(0, 190, 250,0.4);
+}
+.banner2{
+	width: 100%;
+	height: 1000px;
+	background-image: url(../img/焦点图.jpg);
+	background-size: 100% 500px;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+}
+
+
+.a {
+	position: absolute;
+	top: 280px;
+	width: 500px;
+	height: 120px;
+	border: solid 7px #55aa7f;
+	box-shadow: 0 0 70px rgba(20, 70, 210,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* 设置鼠标移上去时变成小手形状 */
+	cursor: pointer;
+}
+
+.a::after {
+	content: '';
+	position: absolute;
+	width: 500px;
+	height: 120px;
+	box-shadow: 0 0 5px rgba(15, 100, 230,0.3);
+	background-color: rgba(10, 50, 200,0.4);
+}
+
+.a:hover {
+	nimation: a 1.5s;
+}
+
+.b,
+.b::before {
+	z-index: 999;
+	color: #fff;
+	position: absolute;
+	font-size: 65px;
+	font-weight: 900;
+	/* 设置字体间距 */
+	letter-spacing: 12px;
+}
+
+.b::before {
+	content: '2021';
+	text-shadow: -5px -5px 0px rgba(255, 255, 255,0.4), 5px 5px 0px rgba(0, 170, 127,0.1);
+	/* 使用缩放的方式创建可见显示取余，括号里的四个值分别是top，right，bottom，left */
+	clip-path: inset(100% 0px 0px 0px);
+
+}
+
+.centent{
+	width: 1200px;
+	height:1600px;
+	margin: auto;
+	margin-top: 40px;
+	
+}
+.centent1{
+	width: 1200px;
+	height: 500px;
+}
+.centent1_left{
+	width: 800px;
+	height: 400px;
+	justify-content: center;
+	font-size: 20px;
+	float: left;
+	
+	
+	
+}
+.centent1_left p{
+	margin:5px 5px 2px 2px;
+}
+.centent1_right{
+	width: 300px;
+	height: 400px;
+	justify-content: center;
+	float: right;
+}
+.centent1_right img{
+	width: 300px;
+}
+.centent2{
+	width: 1200px;
+	height: 780px;
+}
+.centent2_left{
+	width: 250px;
+	height: 600px;
+	float: left;
+	
+}
+.centent2_right{
+	width: 950px;
+	height: 600px;
+	float:left;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	box-shadow: 5px 5px 15px #000;
+}
+.centent2_right img{
+	height: 600px;
+	width: 800px;
+}
+.centent2_left ul li{
+	height: 60px;
+	width: 250px;
+	padding-top:3% ;
+	text-align: left;
+	font-size: 20px;
+}
+.b2{
+    position: absolute;
+	top: 0px;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(100,100,130);
+    z-index: 999;
+    transition: .4s;
+     }
+.nav_first a:nth-child(2):hover~.b1{
+            left: 120px;
+        }
+.nav_first a:nth-child(3):hover~.b1{
+            left: 240px;
+			}
+
+.centent3{
+	width: 1200px;
+	height:580px;
+}
+.centent3_left{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #245580;
+	position: relative;
+	top: 50px;
+	
+}
+
+.centent3 img{
+	height: 200px;
+}
+.centent3_center{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background-color: #286090;
+	border-radius: 50%;
+	position: relative;
+	top: -150px;
+	left: 300px;
+}
+
+.l//i{
+	background-color: #008080;
+	width: 160px;
+	height: 30px;
+	display: block;
+	position: relative;
+	top: 60px;
+	list-style: none;
+	z-index: -999;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------谷爱凌-------------------------------------------------*/
+.an{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	background-image: linear-gradient(to left,
+			#9c88ff, #3cadeb);		
+			border-radius: 5% 0 5% 0;
+}
+
+.an1{
+	width: 600px;
+	height: 600px;
+	float: left;
+}
+
+.an p{
+	text-align: left;
+	font-size: 20px;
+	font-family: "楷体";
+	line-height: 145%;
+	letter-spacing: 115%;
+}
+
+.an2 img{
+
+	width: 420px;
+	height: 520px;
+}
+.e:nth-child(2) img{
+	width: 380px;
+	
+}
+.an2{
+	width: 420px;
+	height: 520px;
+	overflow: hidden;
+	display: flex;
+	float: right;
+	margin-right: 40px;
+	margin-top: 55px;
+}
+
+.an3{
+	width: 430px;
+	height: 520px;
+	overflow: hidden;
+	display: flex;
+	float: right;
+	margin-right: 40px;
+	margin-top: 55px;
+}
+.an3 img{
+	width: 430px;
+	height: 500px;
+}
+
+.centent3_left:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: 5px 5px 15px #000;
+}
+
+.centent3_center:hover{
+	transform: scale(1.1,1.1);
+box-shadow: 5px 5px 15px #000;
+}
+
